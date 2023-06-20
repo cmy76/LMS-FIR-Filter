@@ -37,7 +37,7 @@ module signal_generator(
     	addra <= addra + 1;
     end
     
-    blk_mem_gen_0 rom0 (
+    blk_mem_gen_2 rom0 (
   		.clka(sys_clk),    // input wire clka
   		.ena(en),      // input wire ena
   		.addra(addra),  // input wire [8 : 0] addra
