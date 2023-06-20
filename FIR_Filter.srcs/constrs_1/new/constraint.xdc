@@ -1,0 +1,7 @@
+set_property OFFCHIP_TERM NONE [get_ports send_data]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_clk]
+set_property PACKAGE_PIN G22 [get_ports sys_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports sys_rst_n]
+set_property PACKAGE_PIN D26 [get_ports sys_rst_n]
+set_property PACKAGE_PIN H22 [get_ports send_data]
+set_property IOSTANDARD LVCMOS33 [get_ports send_data]
