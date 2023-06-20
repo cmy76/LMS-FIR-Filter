@@ -1,6 +1,6 @@
 Vivado Simulator v2022.1
 Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
-Running: D:/xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L fifo_generator_v13_2_7 -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_filter_behav xil_defaultlib.tb_top_filter xil_defaultlib.glbl -log elaborate.log 
+Running: D:/xilinx/Vivado/2022.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_5 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_filter_behav xil_defaultlib.tb_top_filter xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -9,10 +9,7 @@ WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 fo
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 24 for port 'mult_pre' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/booth_multiplier.v:43]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'en' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:78]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'done_flag' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:108]
-WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 8 for port 'din' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:119]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'wr_en' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:120]
-WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'rd_en' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:121]
-WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 8 for port 'probe0' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:126]
+WARNING: [VRFC 10-3091] actual bit length 12 differs from formal bit length 8 for port 'probe0' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/top_filter.v:116]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 24 for port 'mult_pre' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/booth_multiplier.v:54]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 24 for port 'mult_pre' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/booth_multiplier.v:65]
 WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 24 for port 'mult_pre' [D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sources_1/new/booth_multiplier.v:76]
@@ -39,11 +36,6 @@ Compiling module xil_defaultlib.filter_default
 Compiling module xil_defaultlib.comparator
 Compiling module xil_defaultlib.coef_update
 Compiling module xil_defaultlib.uart_send
-Compiling module fifo_generator_v13_2_7.fifo_generator_v13_2_7_sync_stag...
-Compiling module fifo_generator_v13_2_7.fifo_generator_v13_2_7_bhv_ver_a...
-Compiling module fifo_generator_v13_2_7.fifo_generator_v13_2_7_CONV_VER(...
-Compiling module fifo_generator_v13_2_7.fifo_generator_vlog_beh(C_DATA_C...
-Compiling module xil_defaultlib.fifo_generator_0
 Compiling module xil_defaultlib.ila_0
 Compiling module xil_defaultlib.top_filter
 Compiling module xil_defaultlib.tb_top_filter

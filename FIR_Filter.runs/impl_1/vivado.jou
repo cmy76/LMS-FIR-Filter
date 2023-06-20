@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jun 20 20:04:38 2023
+# Process ID: 12312
+# Current directory: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/impl_1
+# Command line: vivado.exe -log top_filter.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_filter.tcl -notrace
+# Log file: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/impl_1/top_filter.vdi
+# Journal file: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/impl_1\vivado.jou
+# Running On: LAPTOP-TAO9BH53, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17028 MB
+#-----------------------------------------------------------
+source top_filter.tcl -notrace

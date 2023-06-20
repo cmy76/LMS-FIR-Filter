@@ -111,16 +111,6 @@ module top_filter(
 		.send_ena(send_ena),
 		.done(done)
 		);
-		
-	fifo_generator_0 fifo (
-  		.rst(sys_rst_n),                      // input wire rst
-  		.wr_clk(sys_clk),                // input wire wr_clk
-  		.rd_clk(done),                // input wire rd_clk
-  		.din(yout),                      // input wire [7 : 0] din
-  		.wr_en(1),                  // input wire wr_en
-  		.rd_en(1),                  // input wire rd_en
-  		.dout(uart_data)                   // output wire [7 : 0] dout
-		);
 	ila_0 ILA (
 		.clk(sys_clk), // input wire clk
 		.probe0(yout), // input wire [7:0]  probe0  

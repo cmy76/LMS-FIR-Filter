@@ -1,7 +1,5 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.gen/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module ila_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.gen/sources_1/ip/fifo_generator_0/sim/fifo_generator_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module fifo_generator_0
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.gen/sources_1/ip/blk_mem_gen_1/sim/blk_mem_gen_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module blk_mem_gen_1
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.gen/sources_1/ip/blk_mem_gen_2/sim/blk_mem_gen_2.v" into library xil_defaultlib
@@ -24,5 +22,3 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/asus/Desktop/fpga/vscode/u
 INFO: [VRFC 10-311] analyzing module uart_send
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.srcs/sim_1/new/tb_top_filter.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_top_filter
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl

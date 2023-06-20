@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jun 20 19:24:51 2023
+# Process ID: 16896
+# Current directory: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/fifo_generator_0_synth_1
+# Command line: vivado.exe -log fifo_generator_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_generator_0.tcl
+# Log file: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/fifo_generator_0_synth_1/fifo_generator_0.vds
+# Journal file: D:/GitHub/github/LMS-FIR-Filter/FIR_Filter.runs/fifo_generator_0_synth_1\vivado.jou
+# Running On: LAPTOP-TAO9BH53, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 17028 MB
+#-----------------------------------------------------------
+source fifo_generator_0.tcl -notrace
